@@ -1,0 +1,39 @@
+KidzCoding Hour of Code -  Wardrobe
+
+Activity: 
+This activity is a simple wardrobe game in Scratch that uses loops, conditionals, and user input. This game will allow the player to change the size and color of their sprite. 
+Learning Objectives: 
+Learn how to change color 
+Learn how to change size
+Learn how to assign actions to keybinds
+Learn how to duplicate code for efficiency
+Materials: 
+Finished project: 
+Starter project: default scratch project
+Coding Time!
+
+Step one: Choosing a sprite and laying the foundation of your code
+First, delete the default sprite and choose a sprite of your choice
+Then, add “when started” block and a forever loop
+
+Step two: adding the if-then statement and duplicating 
+First, add an if statement to the inside of the forever loop
+Add the “key pressed” block to the if then statement
+Then, duplicate the if statement three times so you have four of them in total
+
+Step three: creating the first two keyboard functions
+First, set the first key pressed statement to up arrow
+Then set the second one to down arrow
+In the if statement of the first add the change size block
+Add another change size block to the second if statement. But for this one, make it -10
+Now you can make your sprite larger and smaller
+
+Step four: creating the last two keyboard functions
+First, set the third key pressed statement to the right arrow and the fourth one to the left arrow
+Next, add the “change color effect” statement to the third if statement
+Then, add the “set size” function to the fourth if statement
+Now you can reset the size of your sprite and change its color
+
+Congratulations, you have just completed an Hour of Code!
+
+Feel free to mess around with the code to make it suitable for your intentions

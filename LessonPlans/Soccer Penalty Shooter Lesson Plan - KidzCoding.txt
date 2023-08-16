@@ -1,0 +1,31 @@
+KidzCoding Hour of Code - Soccer Penalty Shooter
+
+Activity: 
+In this activity, students will learn to make a fun soccer game in Scratch. This game uses loops, variables, and conditionals. In the game, a computer-controlled goalie will try to prevent a player from shooting a soccer ball into the goal.
+Learning Objectives: 
+Understand movement on the x/y plane
+Understand how to use conditionals for mouse inputs and sprite interactions
+Understand how to use loops to continue actions 
+Understand how to use variables to keep track of score and movement speed
+Materials: 
+Scratch starter project: 
+Scratch completed game: 
+Coding Time!
+
+Variables
+
+We will need a Goal Counter variable to keep track of the number of goals the player has scored and a Goalkeeper Speed variable to keep track of the speed the goalie moves at. 
+
+Coding the Soccer Ball
+
+To control where the ball goes we create a forever loop, so it will repeat forever. We have the ball travel to where ever the pointer is and then return to the starting position before waiting one second before repeating. Then we have a separate line of code to control when the goalie blocks the ball. We have a if-then statement inside a forever loop to make sure it is always checking. It checks to see if the ball is touching the goalie and if it is then it returns the ball to the starting position.
+
+Coding the Goalie
+
+We start by setting the goalkeeper speed variable to 3 which allows for the game to get progressively harder as time progresses. To move the goalkeeper we have a forever loop. In this loop, we have the goalkeeper glide–at whatever speed the variable is set to–from one side of the goal to another. Then once it completes one cycle it makes the goalie move faster by lowering the time it takes for the goalie to go from one place to another. Then we check to make sure that it isn’t below 0 because its not possible to have less than 0 seconds. To add an extra challenge we have the goalie change size. To do this we have a forever loop containing a repeat 10 times loop and a change size by -10. We have the repeating loop to slowly increase the goalie’s size by 10, and then we bring it back down to where it started for it to repeat again.
+Collisions 
+
+
+We start off by setting the goal counter variable to 0 then we jump into a forever loop which just repeats an if-then statement that checks for a collision between the goal and the soccer ball. If the ball collides with the goal then we increase the goal counter by one. Then we wait .5 seconds to make sure the program doesn’t double count.
+
+Congratulations, you have just completed an Hour of Code!
