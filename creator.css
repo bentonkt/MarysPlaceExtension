@@ -1,0 +1,57 @@
+body {
+  font-family: Arial, sans-serif;
+  padding: 10px;
+  margin: 12px;
+}
+
+h2 {
+  margin-top: 10px;
+}
+
+button {
+  margin-top: 10px;
+}
+
+input[type="text"] {
+  width: 300px;  /* Adjust the width as needed */
+  height: 30px; /* Adjust the height as needed */
+  padding: 10px;
+  font-size: 16px; /* Adjust the font size for better readability */
+  margin: 12px;
+}
+  
+.largeInput {
+  width: 100px;  /* Adjust the width as needed */
+  height: 40px; /* Adjust the height as needed */
+  padding: 5px;
+  font-size: 16px; /* Adjust the font size for better readability */
+}
+
+textarea {
+  width: 300px;  /* Adjust the width as needed */
+  height: 100px; /* Adjust the height as needed */
+  padding: 10px;
+  font-size: 12px; /* Adjust the font size for better readability */
+  resize: vertical; /* Allow vertical resizing only */
+  margin-top: 12px;
+  margin-bottom: 4px;
+}
+
+.custom-file-upload {
+  display: inline-block;
+  padding: 6px 12px;
+  cursor: pointer;
+  background-color: #f2f2f2;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  margin-bottom: 12px;
+}
+
+.custom-file-upload input[type="file"]:hover + span {
+  background-color: #ddd;
+}
+
+#generateBtn
+{
+  margin-bottom: 12px;
+}

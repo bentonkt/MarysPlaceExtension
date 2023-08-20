@@ -22,3 +22,18 @@ li
 li:hover {
     background-color: rgb(53, 53, 53); /* Change to the color you prefer when hovering */
 }
+
+.topleft {
+    position: absolute;
+    top: 8px;
+    left: 8px;
+    font-size: 18px;
+    width: 30px;
+    height: 30px;
+}
+
+.button {
+    background-color: rgb(53, 53, 53);
+    padding: 20px;
+    margin: 20px;
+}

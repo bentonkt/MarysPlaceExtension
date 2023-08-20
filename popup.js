@@ -1,3 +1,5 @@
+// const mammoth = require('mammoth');
+
 // Load the list of all of the available lesson plans using 'index.json'
 document.addEventListener('DOMContentLoaded', function() {
     fetch('index.json')
@@ -24,6 +26,13 @@ document.addEventListener('DOMContentLoaded', function() {
             console.error("There was an error fetching the JSON:", error);
         });
 });
+
+document.getElementById('create').addEventListener('click', create);
+
+function create() {
+    window.location.href = 'creator.html'
+}
+
 
 
 // When a lesson is clicked, open and display the lesson plan
@@ -56,3 +65,5 @@ function openLesson(event) {
 
 
 }
+
+
