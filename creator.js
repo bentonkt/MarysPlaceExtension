@@ -10,6 +10,7 @@ document.getElementById('generateBtn').addEventListener('click', function() {
     document.getElementById('createLessonBtn').style.display = 'block';
   });
   
+  // Tells extension what to when the "Create Lesson Plan" button is clicked
   document.getElementById('createLessonBtn').addEventListener('click', function() {
     const stepsContainer = document.getElementById('stepsContainer');
     const textareas = stepsContainer.querySelectorAll('textarea');
@@ -30,3 +31,17 @@ document.getElementById('generateBtn').addEventListener('click', function() {
         span.textContent = fileName || 'Upload Image';
     }
 });
+
+// $('#createLessonBtn').on('click', function() {
+//   $.ajax({
+//       url: 'insert.php',
+//       type: 'POST',
+//       data: $('#myForm').serialize(),
+//       success: function(response) {
+//           console.log("Response:", response);
+//       },
+//       error: function(error) {
+//           console.error("Error:", error);
+//       }
+//   });
+// });

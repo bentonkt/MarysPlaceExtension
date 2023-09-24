@@ -19,7 +19,7 @@
     "content_scripts": [
         {
           "matches": ["https://scratch.mit.edu/projects/editor*"],
-          "js": ["dist/bundle.js"]
+          "js": ["dist/bundle.js", "mammoth.browser.min.js"]
         }
       ],
       "permissions": ["activeTab", "storage"]

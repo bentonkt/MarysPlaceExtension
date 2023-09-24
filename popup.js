@@ -1,4 +1,11 @@
-// const mammoth = require('mammoth');
+// const jquery = require('jquery');
+$(document).ready(function() {
+    // Your jQuery code here
+    $('#LessonName').click(function() {
+        alert('Element clicked!');
+    });
+});
+
 
 // Load the list of all of the available lesson plans using 'index.json'
 document.addEventListener('DOMContentLoaded', function() {

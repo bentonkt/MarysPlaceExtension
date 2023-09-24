@@ -55,3 +55,12 @@ textarea {
 {
   margin-bottom: 12px;
 }
+
+.topleft {
+  position: absolute;
+  top: 8px;
+  left: 8px;
+  font-size: 18px;
+  width: 30px;    
+  height: 30px;
+}
