@@ -22,6 +22,10 @@
           "js": ["dist/bundle.js", "mammoth.browser.min.js"]
         }
       ],
-      "permissions": ["activeTab", "storage"]
+    "permissions": ["activeTab", "storage"],
+    "host_permissions": [
+      "http://bentont.pythonanywhere.com/"
+    ] 
+
   }
   
