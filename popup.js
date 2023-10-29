@@ -45,10 +45,11 @@ function create() {
 // When a lesson is clicked, open and display the lesson plan
 function openLesson(event) {
     
-    const itemText = event.target.textContent;
+    var itemText = event.target.textContent.replace(/\s+/g, '');
 
-    // chrome.browserAction.setPopup({popup: "lessonPlanPopup.html"});
-    window.location.href = 'lessonPlanPopup.html?data=' + encodeURIComponent(itemText);
+    // \\chrome.browserAction.setPopup({popup: "lessonPlanPopup.html"});
+    // window.location.href = 'lessonPlanPopup.html?data=' + encodeURIComponent(itemText);
+    window.location.href = 'lessons/' + encodeURIComponent(itemText) + '/1/index.html';
 
     
     // document.addEventListener('DOMContentLoaded', function() {
