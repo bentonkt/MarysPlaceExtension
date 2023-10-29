@@ -1,3 +1,6 @@
+
+
+
 let currentPage = 1; // track the current page
 const totalPages = 5; // or set the total pages as per your content
 
@@ -16,6 +19,20 @@ var parentDirectoryPath = currentDirectory.substring(currentDirectory.lastIndexO
 currentPage = parseInt(parentDirectoryPath);
 
 
+// ADDING STYLE SHEET \\
+// Create a new link element
+var link = document.createElement("link");
+
+link.rel = "stylesheet";
+link.type = "text/css";
+link.href = "../style.css"; 
+
+// Append the link element to the document head
+document.head.appendChild(link);
+
+
+
+// This function will change the page
 function changePage(direction) {
     const newPageNumber = currentPage + direction;
     // Check the page boundaries
@@ -27,6 +44,8 @@ function changePage(direction) {
     return newPageNumber;
 }
 
+
+// NAVIGATION BUTTONS BETWEEN STEPS \\
 document.getElementById('prev').addEventListener('click', function() {
     // Existing functionality
     num = changePage(-1);
@@ -35,9 +54,6 @@ document.getElementById('prev').addEventListener('click', function() {
     this.style.backgroundColor = 'blue'; // changes the background color of the button
     this.style.color = 'white'; // changes the text color of the button
 });
-
-
-
 document.getElementById('next').addEventListener('click', function() {
     num = changePage(1);
 
